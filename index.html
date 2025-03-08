@@ -42,15 +42,16 @@
     
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a href="" class="navbar-brand"><img src="assests/images/logo-search-grid-1x (3).png" alt=""></a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto">
+            <a href="" class="navbar-brand"><img src="assests/images/logo-search-grid-1x (3).png" alt="" class="image-fluid"></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#NavbarIcon"><i class="fa-solid fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="NavbarIcon">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a href="" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="" class="nav-link">Qualification</a></li>
                     <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
                 </ul>
-                <div class="search-container ms-3">
+                <div class="search-container ms-lg-3 mt-3 mt-lg-0">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="text" placeholder="Search...">
                 </div>
@@ -63,87 +64,92 @@
     <!-- ========================================================================================== -->
 
     <!-- Sidbar Area -->
-     <div class="middleArea">
+     <div class="middleArea mb-5">
         <div class="container">
-            <div class="middleContent">
-                <div class="sidebar">
-                    <h2 class="text-center">Details</h2>
-                    <a href=""><span><i class="fa-solid fa-house"></i></span>Home</a>
-                    <a href=""><span><i class="fa-solid fa-address-card"></i></span>About</a>
-                    <a href=""><span><i class="fa-solid fa-ranking-star"></i></span>Qualification</a>
-                    <a href=""><span><i class="fa-solid fa-phone"></i></span>Contact</a>
-                    <div class="navImage d-flex justify-content-center">
-                        <img src="assests/images/logo-search-grid-1x (5).png" alt="" class="nav_image">
+            <div class="row">
+                <div class="col-lg-3 mb-4 mb-lg-0">
+                    <div class="sidebar">
+                        <h2 class="text-center">Details</h2>
+                        <a href=""><span><i class="fa-solid fa-house"></i></span>Home</a>
+                        <a href=""><span><i class="fa-solid fa-address-card"></i></span>About</a>
+                        <a href=""><span><i class="fa-solid fa-ranking-star"></i></span>Qualification</a>
+                        <a href=""><span><i class="fa-solid fa-phone"></i></span>Contact</a>
+                        <div class="navImage d-flex justify-content-center">
+                            <img src="assests/images/logo-search-grid-1x (5).png" alt="" class="nav_image">
+                        </div>
                     </div>
                 </div>
-                <div class="schedule-container">
-                    <h2>Class Routine</h2>
-                    <table class="schedule-table"">
-                        <thead>
-                            <tr>
-                                <th>Time</th>
-                                <th>Sunday</th>
-                                <th>Monday</th>
-                                <th>Tuesday</th>
-                                <th>Wednesday</th>
-                                <th>Thrusday</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>08:00 AM - 09:00 AM</td>
-                                <td>Math</td>
-                                <td>English</td>
-                                <td>Physics</td>
-                                <td>Chemistry</td>
-                                <td>Social Science</td>
-                            </tr>
-                            <tr>
-                                <td>09:00 AM - 10:00 AM</td>
-                                <td>Biology</td>
-                                <td>Math</td>
-                                <td>ICT</td>
-                                <td>English</td>
-                                <td>Physics</td>
-                            </tr>
-                            <tr>
-                                <td>10:00 AM - 11:00 AM</td>
-                                <td>Chemistry</td>
-                                <td>Social Science</td>
-                                <td>Biology</td>
-                                <td>Math</td>
-                                <td>English</td>
-                            </tr>
-                            <tr>
-                                <td>11:00 AM - 12:00 PM</td>
-                                <td>English</td>
-                                <td>Physics</td>
-                                <td>Chemistry</td>
-                                <td>ICT</td>
-                                <td>Math</td>
-                            </tr>
-                            <tr>
-                                <td>12:00 PM - 01:00 PM</td>
-                                <td colspan="5" style="text-align: center;">Lunch Break</td>
-                            </tr>
-                            <tr>
-                                <td>01:00 PM - 02:00 PM</td>
-                                <td>Physics</td>
-                                <td>Chemistry</td>
-                                <td>Social Science</td>
-                                <td>Biology</td>
-                                <td>English</td>
-                            </tr>
-                            <tr>
-                                <td>02:00 PM - 03:00 PM</td>
-                                <td>ICT</td>
-                                <td>Biology</td>
-                                <td>Math</td>
-                                <td>Physics</td>
-                                <td>Chemistry</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-lg-9">
+                    <div class="schedule-container">
+                        <h2>Class Routine</h2>
+                        <table class="schedule-table"">
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Sunday</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thrusday</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>08:00 AM - 09:00 AM</td>
+                                    <td>Math</td>
+                                    <td>English</td>
+                                    <td>Physics</td>
+                                    <td>Chemistry</td>
+                                    <td>Social Science</td>
+                                </tr>
+                                <tr>
+                                    <td>09:00 AM - 10:00 AM</td>
+                                    <td>Biology</td>
+                                    <td>Math</td>
+                                    <td>ICT</td>
+                                    <td>English</td>
+                                    <td>Physics</td>
+                                </tr>
+                                <tr>
+                                    <td>10:00 AM - 11:00 AM</td>
+                                    <td>Chemistry</td>
+                                    <td>Social Science</td>
+                                    <td>Biology</td>
+                                    <td>Math</td>
+                                    <td>English</td>
+                                </tr>
+                                <tr>
+                                    <td>11:00 AM - 12:00 PM</td>
+                                    <td>English</td>
+                                    <td>Physics</td>
+                                    <td>Chemistry</td>
+                                    <td>ICT</td>
+                                    <td>Math</td>
+                                </tr>
+                                <tr>
+                                    <td>12:00 PM - 01:00 PM</td>
+                                    <td colspan="5" style="text-align: center;">Lunch Break</td>
+                                </tr>
+                                <tr>
+                                    <td>01:00 PM - 02:00 PM</td>
+                                    <td>Physics</td>
+                                    <td>Chemistry</td>
+                                    <td>Social Science</td>
+                                    <td>Biology</td>
+                                    <td>English</td>
+                                </tr>
+                                <tr>
+                                    <td>02:00 PM - 03:00 PM</td>
+                                    <td>ICT</td>
+                                    <td>Biology</td>
+                                    <td>Math</td>
+                                    <td>Physics</td>
+                                    <td>Chemistry</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+    
                 </div>
             </div>
         </div>
